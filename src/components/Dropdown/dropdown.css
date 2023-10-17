@@ -1,0 +1,11 @@
+.dropdownForm{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.dropdownDown{
+    width: 50px;
+    padding: 3px;
+    border: rounded;
+}
