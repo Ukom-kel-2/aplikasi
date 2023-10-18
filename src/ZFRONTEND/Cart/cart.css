@@ -14,6 +14,7 @@
   }
   .cartImg {
     display: flex;
+    background: none;
     width: 400px;
   }
   
@@ -61,18 +62,32 @@
 
   .total {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
   }
   
   .total span:nth-child(1) {
     font-size: 2rem;
-    color: skyblue;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     letter-spacing: 2px;
   }
   
   .total span:nth-child(2) {
     font-size: 2rem;
-    color: green;
+    color: rgb(0, 0, 0);
     font-weight: bold;
   }
+
+  .co {
+    background: whitesmoke;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    justify-content: end;
+}

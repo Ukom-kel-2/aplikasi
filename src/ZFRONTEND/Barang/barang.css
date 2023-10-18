@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
   }
+
+  barang{
+    background: white;
+  }
+
   section {
     width: 80%;
     margin: auto;
@@ -9,6 +14,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
+    background: white
   }
   .cards {
     width: 250px;
