@@ -40,7 +40,7 @@ const Cart = ({cart, setCart, handleChange}) => {
                 </div>
             ))}
             <div className="total">
-                <span>Total</span>
+                <span>Total Harga</span>
                 <span>Rp. {price}</span>
                 <button className="co">Checkout</button>
             </div>

@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import Jual from './Jual/Jual';
 import Barang from './Barang/barang';
 import Cart from './Cart/cart';
-import './frontindex.css';
 
 const Front = () => {
   const [show, setShow] = useState(true);
@@ -25,7 +24,6 @@ const Front = () => {
   return (
     <React.Fragment>
       <Jual setShow={setShow} size={cart.length} />
-      <h1>Selamat Datang & Selamat Berbelanja!</h1>
       {show ? (
         <Barang handleClick={handleClick} />
       ) : (

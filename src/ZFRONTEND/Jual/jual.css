@@ -38,10 +38,6 @@ nav {
     font-family: cursive;
     cursor: pointer;
 }
-
-.my_shop img{
-    width: 1rem;
-}
 .cart {
     cursor: pointer;
 }

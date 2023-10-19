@@ -18,12 +18,12 @@ function Login() {
 		<div class="screen__content">
 			<form class="login" action='POST'>
 				<div class="login__field">
-					<i class="login__icon"></i>
+					<i class="login__icon fas fa-user"></i>
           <label htmlFor="uname"><b>Username</b></label>
 					<input type="text" class="login__input" placeholder="User name / Email" name="uname" required/>
 				</div>
 				<div class="login__field">
-					<i class="login__icon"></i>
+					<i class="login__icon fas fa-lock"></i>
           <label htmlFor="psw"><b>Password</b></label>
 					<input type="password" class="login__input" placeholder="Password" name="uname" required/>
 				</div>

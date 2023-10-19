@@ -14,7 +14,6 @@
   }
   .cartImg {
     display: flex;
-    background: none;
     width: 400px;
   }
   
@@ -46,12 +45,12 @@
     border: none;
     outline: none;
     color: white;
-    background-color: skyblue;
+    background-color: red;
     border-radius: 5px;
     cursor: pointer;
   }
   .cartBox div:nth-child(3) button:hover {
-    background-color: darkseagreen;
+    background-color: rgb(209, 163, 78);
   }
   .cartBox div:nth-child(3) span {
     background-color: lightgreen;
@@ -62,32 +61,30 @@
 
   .total {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
   }
   
   .total span:nth-child(1) {
     font-size: 2rem;
-    color: rgb(0, 0, 0);
+    color: skyblue;
     font-weight: bold;
     letter-spacing: 2px;
   }
   
   .total span:nth-child(2) {
     font-size: 2rem;
-    color: rgb(0, 0, 0);
+    color: green;
     font-weight: bold;
   }
 
-  .co {
-    background: whitesmoke;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    margin-left: 5rem;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    font-weight: bolder;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    justify-content: end;
+.co {
+  margin-top: 0.5rem;
+  width: auto;
+  padding: 1rem 1rem;
+  border: none;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 5px;
+  background: skyblue;
+  cursor: pointer;
 }
