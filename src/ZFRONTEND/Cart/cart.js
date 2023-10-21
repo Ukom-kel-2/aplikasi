@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import './cart.css';
+import Form from "../Form/form";
+import Text from "../TextArea/text";
 
 const Cart = ({cart, setCart, handleChange}) => {
     const [price, setPrice] = useState(0);
@@ -22,6 +24,7 @@ const Cart = ({cart, setCart, handleChange}) => {
 
     return (
         <article>
+            <Form/>
             {cart.map((item) => (
                 <div className="cartBox" key={item.id}>
                     <div className="cartImg">
@@ -39,6 +42,7 @@ const Cart = ({cart, setCart, handleChange}) => {
                     </div>
                 </div>
             ))}
+            <Text/>
             <div className="total">
                 <span>Total Harga</span>
                 <span>Rp. {price}</span>

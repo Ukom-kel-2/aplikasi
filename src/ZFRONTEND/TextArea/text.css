@@ -1,0 +1,13 @@
+form textarea{
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    width: 90%;
+    margin: 10px auto;
+    padding: 3px;
+    font-family: "Poppins";
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    margin-bottom: 2rem;
+    background: white;
+  }
