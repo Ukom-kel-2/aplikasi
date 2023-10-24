@@ -21,7 +21,8 @@ form input, textarea{
   margin: 15px auto;
   padding: 6px;
   font-family: "Poppins";
-  border: 1px solid #ddd;
+  border: 3px solid #ddd;
+  color: rgb(16, 15, 15);
 }
 
 form input > address {

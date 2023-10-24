@@ -23,6 +23,7 @@ const Front = () => {
  
   return (
     <React.Fragment>
+      <cek/>
       <Jual setShow={setShow} size={cart.length} />
       {show ? (
         <Barang handleClick={handleClick} />
